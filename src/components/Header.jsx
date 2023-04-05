@@ -13,7 +13,14 @@ const Header = () => {
 				padding: "8px",
 			}}
 		>
-			<div style={{ display: "flex", gap: "8px" }}>
+			<div
+				style={{
+					display: "flex",
+					alignItems: "center",
+					justifyContent: "center",
+					gap: "24px",
+				}}
+			>
 				<MenuItems title={"Gmail"} />
 				<MenuItems title={"Images"} />
 				<AppLauncherIcon />

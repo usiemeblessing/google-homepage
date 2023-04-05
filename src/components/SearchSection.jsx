@@ -9,7 +9,7 @@ const SearchSection = () => {
 		<div
 			style={{
 				width: "700px",
-				border: "1px solid black",
+				// border: "1px solid black",
 				margin: "30px auto",
 			}}
 		>

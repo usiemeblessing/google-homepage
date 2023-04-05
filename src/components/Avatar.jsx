@@ -8,7 +8,7 @@ const Avatar = () => {
 			<img
 				src={Headshot}
 				alt="usieme headshot"
-				style={{ height: "16px" }}
+				style={{ height: "30px", borderRadius: "50%" }}
 			/>
 		</div>
 	);

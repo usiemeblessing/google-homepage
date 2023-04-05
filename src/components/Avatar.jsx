@@ -1,14 +1,14 @@
 /** @format */
 
-import Headshot from "../images/headshot.jpg";
+import Headshot from "../images/Usieme.jpg";
 
 const Avatar = () => {
 	return (
 		<div>
 			<img
-				src="{Headshot}"
+				src={Headshot}
 				alt="usieme headshot"
-				className="headshot-img"
+				style={{ height: "16px" }}
 			/>
 		</div>
 	);

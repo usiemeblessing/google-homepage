@@ -1,6 +1,6 @@
 /** @format */
 
-import Headshot from "../images/Usieme.jpg";
+import Headshot from "../images/Usieme.jpeg";
 
 const Avatar = () => {
 	return (

@@ -4,7 +4,19 @@
 	background-color: yellow;
 } */
 
-div {
+header {
 	background-color: yellow;
-	color: black;
+	display: flex;
+	justify-content: flex-end;
+	padding: 8px;
+}
+
+.header-contents {
+	display: flex;
+	gap: 4px;
+}
+
+.appsLauncher-img,
+headshot-img {
+	height: 16px;
 }

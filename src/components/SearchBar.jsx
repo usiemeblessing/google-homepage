@@ -5,37 +5,23 @@ import CameraLensIcon from "../images/google-camera-lens-icon.png";
 
 const SearchBar = () => {
 	return (
-		<div
-			style={{
-				width: "90%",
-				borderRadius: "30px",
-				padding: "18px",
-				border: "1px solid black",
-				margin: "20px auto",
-			}}
-		>
-			<div style={{ display: "flex", justifyContent: "space-between" }}>
+		<div className="search-bar">
+			<div className="search-icons-container">
 				<img
 					src={SearchIcon}
 					alt="search icon"
-					style={{ height: "16px" }}
+					className="search-icons"
 				/>
-				<div
-					style={{
-						display: "flex",
-						justifyContent: "space-between",
-						gap: "20px",
-					}}
-				>
+				<div className="right-side-search-icons">
 					<img
 						src={VoiceSearchIcon}
 						alt="google voice search icon"
-						style={{ height: "16px" }}
+						className="search-icons"
 					/>
 					<img
 						src={CameraLensIcon}
 						alt="google camera lens icon"
-						style={{ height: "16px" }}
+						className="search-icons"
 					/>
 				</div>
 			</div>

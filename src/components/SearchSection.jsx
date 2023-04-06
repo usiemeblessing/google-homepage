@@ -1,20 +1,18 @@
 /** @format */
 
-import GoogleLogo from "../images/googlelogo.png";
 import SearchBar from "./SearchBar";
 import Logo from "./Logo";
+import MenuItems from "./MenuItems";
 
 const SearchSection = () => {
 	return (
-		<div
-			style={{
-				width: "700px",
-				// border: "1px solid black",
-				margin: "30px auto",
-			}}
-		>
+		<div className="search-section">
 			<Logo />
 			<SearchBar />
+			<div className="search-feeling">
+				<MenuItems title={"Google Search"} />
+				<MenuItems title={"I'm Feeling Lucky"} />
+			</div>
 		</div>
 	);
 };

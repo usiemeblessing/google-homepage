@@ -1,11 +1,16 @@
 /** @format */
 
-/* body {
-	background-color: yellow;
-} */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-header {
-	background-color: yellow;
+body {
+	color: #555;
+}
+
+.page-header-container {
 	display: flex;
 	justify-content: flex-end;
 	padding: 8px;
@@ -13,10 +18,60 @@ header {
 
 .header-contents {
 	display: flex;
-	gap: 4px;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
 }
 
-.appsLauncher-img,
-headshot-img {
+.apps-launcher-icon {
 	height: 16px;
+}
+
+.headshot {
+	height: 30px;
+	border-radius: 50%;
+}
+
+.search-section {
+	width: 700px;
+	/* border: 1px solid black; */
+	margin: 30px auto;
+	text-align: center;
+}
+
+.logo {
+	margin: 20px auto;
+}
+
+.search-bar {
+	width: 90%;
+	border-radius: 30px;
+	padding: 18px;
+	border: 1px solid #555;
+	margin: 20px auto;
+}
+
+.search-icons-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.search-icons {
+	height: 18px;
+}
+
+.right-side-search-icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 20px;
+}
+
+.search-feeling {
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
 }

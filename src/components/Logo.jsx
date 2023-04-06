@@ -5,11 +5,7 @@ import GoogleLogo from "../images/googlelogo.png";
 const Logo = () => {
 	return (
 		<div>
-			<img
-				src={GoogleLogo}
-				alt="google logo"
-				style={{ margin: "20px auto" }}
-			/>
+			<img src={GoogleLogo} alt="google logo" className="logo" />
 		</div>
 	);
 };

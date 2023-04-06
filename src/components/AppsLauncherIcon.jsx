@@ -6,8 +6,8 @@ const AppsLauncherIcon = () => {
 		<div>
 			<img
 				src={Icon}
-				alt="apps launcher image"
-				style={{ height: "16px" }}
+				alt="apps launcher icon"
+				className="apps-launcher-icon"
 			/>
 		</div>
 	);

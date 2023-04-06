@@ -1,7 +1,15 @@
 /** @format */
 
+import Location from "./Location";
+import BottomFooter from "./BottomFooter";
+
 const Footer = () => {
-	return <div>This is the Footer</div>;
+	return (
+		<div className="footer">
+			<Location />
+			<BottomFooter />
+		</div>
+	);
 };
 
 export default Footer;

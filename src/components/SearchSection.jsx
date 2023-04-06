@@ -2,17 +2,16 @@
 
 import SearchBar from "./SearchBar";
 import Logo from "./Logo";
-import MenuItems from "./MenuItems";
+import Buttons from "./Buttons";
+import LanguageLinks from "./LanguageLinks";
 
 const SearchSection = () => {
 	return (
 		<div className="search-section">
 			<Logo />
 			<SearchBar />
-			<div className="search-feeling">
-				<MenuItems title={"Google Search"} />
-				<MenuItems title={"I'm Feeling Lucky"} />
-			</div>
+			<Buttons />
+			<LanguageLinks />
 		</div>
 	);
 };

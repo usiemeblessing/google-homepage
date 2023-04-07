@@ -2,9 +2,9 @@
 
 const Buttons = () => {
 	return (
-		<div className="buttons">
-			<button className="button-item">Google Search</button>
-			<button className="button-item">I am feeling Lucky</button>
+		<div className="buttons-container">
+			<button className="btn">Google Search</button>
+			<button className="btn">I'm feeling Lucky</button>
 		</div>
 	);
 };

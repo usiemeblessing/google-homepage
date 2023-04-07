@@ -16,13 +16,11 @@ o Header Component
 o Search Section Component
  Google Logo Component
  Search Bar Component
- Button Component
+ Buttons Component
  Language/Translator Links Component
 
 <!-- Footer Component -->
 
 o Footer Component
  Location Component
- Bottom Left Menu Component
- Footer Text Component
- Bottom Right Menu Component
+ Bottom Footer Component
